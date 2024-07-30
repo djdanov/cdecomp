@@ -4,7 +4,7 @@
 # jdanov@demogr.mpg.de
 # last revised 7.05.2024
 
-cdecomp.cod.ex<-function(fname1 = "USA", fname2 = "ENW", years = c(2019, 2020), sex = 2) {
+cdecomp.cod.ex<-function(fname1 = "USA.csv", fname2 = "ENW.csv", years = c(2019, 2020), sex = 2) {
 
   # prepare the data
   c1 = mx.select(fname1, years, sex)
